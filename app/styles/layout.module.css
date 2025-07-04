@@ -4,13 +4,19 @@
     "header"
     "main"
     "footer";
-  grid-template-rows: auto auto 1fr 36px;
+  grid-template-rows: 180px 1fr 36px;
   align-items: center;
-  min-height: 100vh;
+  min-height: 40vh;
 }
 
 .header {
   grid-area: header;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary);
 }
 
 .main {
